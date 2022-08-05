@@ -999,7 +999,7 @@ header.sticky .nav-bar{
   columns: var(--first-color);
 }
 
-.contact-form .first-row .input{
+.contact-form .first-row input{
   width: 100%;
 }
 
