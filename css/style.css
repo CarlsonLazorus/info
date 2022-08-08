@@ -2,12 +2,12 @@
 
 :root{
   /*=======Main theme colors=======*/
-  --first-color: #0e2431;
-  --second-color: #6a59d1;
+  --first-color: #000000;
+  --second-color: #464646;
   --third-color: #777;
 
   /*=======Hover colors=======*/
-  --hover-color: #614fd0;
+  --hover-color: #2a2a2a;
 
   /*=======Background colors=======*/
   --body-bg-color: #fefefe;
@@ -15,7 +15,7 @@
   --modal-bg-color: #fff;
   --bg-transparent-color:rgba(0, 0, 0, 0.1);
   --transparent-color-01:rgba(0, 0, 0, 0.1);
-  --transparent-color-02:rgba(106, 89, 209, 0.1);
+  --transparent-color-02:rgba(53, 53, 53, 0.5);
   --line-color: #d7d7d7;
 
   /*=======Color Filter=======*/
@@ -29,32 +29,32 @@
   --normal-font-size: 1em;
 
   /*=======Scroll bar colors=======*/
-  --scroll-bar-color: #c5cadf;
-  --scroll-thumb-color: #70768a;
-  --scroll-thumb-hover-color: #454f6b;
+  --scroll-bar-color: #ececec;
+  --scroll-thumb-color: #7e7e7e;
+  --scroll-thumb-hover-color: #c1c1c1;
 }
 
 .dark-theme{
    /*=======Main theme colors=======*/
    --first-color: #fff;
-   --second-color: #6a59d1;
-   --third-color: #a9afc3;
+   --second-color: #464646;
+   --third-color: #777;
  
    /*=======Background colors=======*/
-   --body-bg-color: #0e1b31;
-   --card-bg-color: #132347;
-   --modal-bg-color: #102048;
+   --body-bg-color: #000000;
+   --card-bg-color: #151515;
+   --modal-bg-color: #000000;
    --bg-transparent-color:rgba(255, 255, 255, 0.1);
-   --transparent-color-01:rgba(255, 255, 255, 0.1);
-   --line-color: #454f6b;
+   --transparent-color-01:rgba(255, 255, 255, 0.3);
+   --line-color: #fafafa;
  
    /*=======Color Filter=======*/
    --color-filter: invert(0);
  
    /*=======Scroll bar colors=======*/
-   --scroll-bar-color: #c1ceff;
-   --scroll-thumb-color: #282f4e;
-   --scroll-thumb-hover-color: #454f6b;
+   --scroll-bar-color: #ececec;
+   --scroll-thumb-color: #7e7e7e;
+   --scroll-thumb-hover-color: #c1c1c1;
 }
 
 *{
