@@ -38,7 +38,7 @@
    /*=======Main theme colors=======*/
    --first-color: #fff;
    --second-color: #464646;
-   --third-color: #777;
+   --third-color: #fff;
  
    /*=======Background colors=======*/
    --body-bg-color: #000000;
@@ -96,9 +96,10 @@ li{
   bottom: 20px;
   width: 45px;
   height: 45px;
-  background:var(--second-color);
+  background: #2a2a2a;
   color: #fff;
   font-size: var(--small-font-size);
+  font-weight: 700;
   border-radius: 3px;
   cursor: pointer;
   opacity: 0;
@@ -298,7 +299,7 @@ header.sticky .nav-bar{
 
 .home .scroll-down i{
   color: var(--second-color);
-  font-size: 1.2em;
+  font-size: 1.3em;
   animation: arrow-down ease 2s infinite;
 }
 
