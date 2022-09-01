@@ -30,20 +30,20 @@
 
   /*=======Scroll bar colors=======*/
   --scroll-bar-color: #ececec;
-  --scroll-thumb-color: #7e7e7e;
-  --scroll-thumb-hover-color: #c1c1c1;
+  --scroll-thumb-color: #c1c1c1;
+  --scroll-thumb-hover-color: #7e7e7e;
 }
 
 .dark-theme{
    /*=======Main theme colors=======*/
-   --first-color: #fff;
-   --second-color: #464646;
+   --first-color: #e1b378;
+   --second-color: #5a5a5a;
    --third-color: #fff;
  
    /*=======Background colors=======*/
-   --body-bg-color: #000000;
-   --card-bg-color: #151515;
-   --modal-bg-color: #000000;
+   --body-bg-color: #111111;
+   --card-bg-color: #1b1b1b;
+   --modal-bg-color: #111111;
    --bg-transparent-color:rgba(255, 255, 255, 0.1);
    --transparent-color-01:rgba(255, 255, 255, 0.3);
    --line-color: #fafafa;
@@ -52,9 +52,9 @@
    --color-filter: invert(0);
  
    /*=======Scroll bar colors=======*/
-   --scroll-bar-color: #ececec;
-   --scroll-thumb-color: #7e7e7e;
-   --scroll-thumb-hover-color: #c1c1c1;
+   --scroll-bar-color: #1b1b1b;
+   --scroll-thumb-color: #e7c293;
+   --scroll-thumb-hover-color: #e1b378;
 }
 
 *{
@@ -263,6 +263,42 @@ header.sticky .nav-bar{
   color: var(--third-color);
   font-size: var(--normal-font-size);
   max-width: 350px;
+}
+
+.home-container .info .animated-text{
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+}
+
+.home-container .info .animated-text h3{
+  color: var(--third-color);
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+
+.home-container .info .animated-text h3:nth-child(1){
+  animation: text-move 10s infinite;
+}
+
+@keyframes text-move{
+  0%{
+    margin-top: 0;
+  }
+  25%{
+    margin-top: -60px;
+  }
+  50%{
+    margin-top: -120px;
+  }
+  75%{
+    margin-top: -60px;
+  }
+  100%{
+    margin-top: 0;
+  }
 }
 
 .btn{
@@ -540,19 +576,19 @@ header.sticky .nav-bar{
 }
 
 .bar .html:before{
-  width: 95%;
+  width: 100%;
 }
 .bar .css:before{
-  width: 85%;
+  width: 100%;
 }
 .bar .javascript:before{
-  width: 80%;
+  width: 100%;
 }
 .bar .jquery:before{
-  width: 80%;
+  width: 100%;
 }
 .bar .php:before{
-  width: 75%;
+  width: 100%;
 }
 
 .experience-card{
